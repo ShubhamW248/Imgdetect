@@ -78,11 +78,10 @@ model.add(Dense(1, activation='sigmoid'))
 
 ## Usage
 
-1. Clone the repository
-2. Install the required packages using `pip install -r requirements.txt`
-3. Run the main script using `python main.py`
-
-For detailed instructions, please refer to the documentation.
+1. Load the IMDb dataset and preprocess the data.
+2. Define and compile the model.
+3. Train the model with early stopping to prevent overfitting.
+4. Evaluate the model and plot training and validation loss and accuracy.
 
 ## Conclusion
 
